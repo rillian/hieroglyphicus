@@ -1,7 +1,7 @@
 # mysql script create and populate the database.
 
-create database hgy;
-use hgy
+create database hieroglyphicus;
+use hieroglyphicus
 
 create table entries (transliteration varchar(6), mdc varchar(16), english varchar(24));
 
