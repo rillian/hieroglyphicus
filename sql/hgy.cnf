@@ -1,0 +1,5 @@
+# mysql configuration options for Heiroglyphicus open dictionary.
+
+# Use less secure auth until the php image supports the default.
+[mysqld]
+default_authentication_plugin=mysql_native_password
