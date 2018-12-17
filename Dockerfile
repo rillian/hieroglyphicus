@@ -2,7 +2,7 @@
 FROM php:apache
 
 # Use the default production configuration
-RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
+RUN cp "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 
 # Install the mysql database driver.
 RUN docker-php-ext-install pdo pdo_mysql
