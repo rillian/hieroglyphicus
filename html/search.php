@@ -33,7 +33,7 @@ $query->setFetchMode(PDO::FETCH_ASSOC);
   <?php while ($entry = $query->fetch()): ?>
   <tr>
     <td><?php echo htmlspecialchars($entry['mdc']); ?></td>
-    <td><?php echo htmlspecialchars($entry['translitation']); ?></td>
+    <td><?php echo htmlspecialchars($entry['transliteration']); ?></td>
     <td><?php echo htmlspecialchars($entry['english']); ?></td>
   </tr>
   <?php endwhile; ?>
